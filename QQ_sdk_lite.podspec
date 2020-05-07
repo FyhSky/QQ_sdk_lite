@@ -25,13 +25,16 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/FyhSky/QQ_sdk_lite'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'FyhSky' => 'fengyinghaotjut@126.com' }
+  s.author           = {  "OpenQQ" => "opensupport@qq.com" }
   s.source           = { :git => 'https://github.com/FyhSky/QQ_sdk_lite.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   
   s.ios.deployment_target = '8.0'
   
-  s.source_files = 'QQ_sdk_lite/Classes/**/*'
+  s.vendored_frameworks = 'TencentOpenAPI.framework'
+  s.source_files        = 'QQ_sdk_lite/Classes/TencentOpenAPI.framework/Headers/*.h'
+  s.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
+  s.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
   
   # s.resource_bundles = {
   #   'QQ_sdk_lite' => ['QQ_sdk_lite/Assets/*.png']
