@@ -1,0 +1,6 @@
+framework module QQ_sdk_lite {
+  umbrella header "QQ_sdk_lite-umbrella.h"
+
+  export *
+  module * { export * }
+}

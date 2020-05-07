@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C22CDC241B55E1B9BE425B7D1EDE9C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		603AB494CBD489A60B7D7E5C4A4A4A56 /* Pods-QQ_sdk_lite_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5271A3B76D1D6886C32772097773C7 /* Pods-QQ_sdk_lite_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B0AD8D5F6C118406F7E5EA6C1AA58B /* QQ_sdk_lite-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA85269E30F586A49F3FA84F9426674B /* QQ_sdk_lite-dummy.m */; };
+		88188F768D5C19959653DD33F21CEDDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8979A5B21E69AC4BA6E5F903B2424EA9 /* QQ_sdk_lite-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4B7DF7E95C9192AF0D851C26C391F1 /* QQ_sdk_lite-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F812E7A97FBC1F2D5866654A310663E /* Pods-QQ_sdk_lite_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D4F86793D95D3D7608AE52686B224 /* Pods-QQ_sdk_lite_Tests-dummy.m */; };
+		B9DE96DB1F16E8AC042523CC0755AD1C /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = E36A2A5849F2826FB09C4DB529EE5B4E /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF2A3DC2C41F34223B8515B8D2657A2D /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = DF465C0F7ADB80E5DCAA1C9733341562 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D380F9168D33FA2D1226DD9329CBC76F /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 714813031B39367A28B9DE921698C42B /* QQApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E13E420321D5AC2490DE8CFA9DBCC644 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF37967971B688F9A22AB0259E3D5F7 /* sdkdef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E73A0FEEF671A07B31B09CA1D092BFB5 /* TencentOpenAPI in Sources */ = {isa = PBXBuildFile; fileRef = 325B0F3A7F9C9B7828C64429E717CC0A /* TencentOpenAPI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4093DF2446F986C039E612BBB40C546 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C93E34838A832DACE23D5E127A223519;
+			remoteInfo = QQ_sdk_lite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E99D8036101B099317AAFC4014B4678 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2321A54877EAA983CB20B8DA96F8CC23 /* QQ_sdk_lite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QQ_sdk_lite.framework; path = QQ_sdk_lite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		325B0F3A7F9C9B7828C64429E717CC0A /* TencentOpenAPI */ = {isa = PBXFileReference; includeInIndex = 1; name = TencentOpenAPI; path = QQ_sdk_lite/Classes/TencentOpenAPI.framework/TencentOpenAPI; sourceTree = "<group>"; };
+		43B9E6A18A375001FE6C8F0C9849AE85 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		52109695BC61F3604F2048321F1BBE61 /* QQ_sdk_lite.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QQ_sdk_lite.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		714813031B39367A28B9DE921698C42B /* QQApiInterface.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterface.h; sourceTree = "<group>"; };
+		71511AF017116DABEEAEC099BD676CAE /* QQ_sdk_lite-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QQ_sdk_lite-Info.plist"; sourceTree = "<group>"; };
+		77B3787EBBA39213B17E7DE6D423FAA1 /* QQ_sdk_lite.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QQ_sdk_lite.modulemap; sourceTree = "<group>"; };
+		785DF732161EDD6DF49816D5BA1C04AD /* Pods-QQ_sdk_lite_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QQ_sdk_lite_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		901D4F86793D95D3D7608AE52686B224 /* Pods-QQ_sdk_lite_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QQ_sdk_lite_Tests-dummy.m"; sourceTree = "<group>"; };
+		9681B6BA8240679276AFBBA05983F769 /* Pods-QQ_sdk_lite_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQ_sdk_lite_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B4B7DF7E95C9192AF0D851C26C391F1 /* QQ_sdk_lite-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQ_sdk_lite-umbrella.h"; sourceTree = "<group>"; };
+		9B5271A3B76D1D6886C32772097773C7 /* Pods-QQ_sdk_lite_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QQ_sdk_lite_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9C42F3E6870E948984B06E5D67436D9D /* Pods-QQ_sdk_lite_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QQ_sdk_lite_Tests.modulemap"; sourceTree = "<group>"; };
+		9CDD57897E3D8A5A169303DE840CD237 /* QQ_sdk_lite-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QQ_sdk_lite-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3D87FFD6A20139D72492D8C6C7BF75B /* Pods-QQ_sdk_lite_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQ_sdk_lite_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AEF37967971B688F9A22AB0259E3D5F7 /* sdkdef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = sdkdef.h; sourceTree = "<group>"; };
+		B79FC031ACC9EF7CF920180EB78D37F7 /* Pods_QQ_sdk_lite_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QQ_sdk_lite_Tests.framework; path = "Pods-QQ_sdk_lite_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96C343261648B3D19BD62515B983CA3 /* Pods-QQ_sdk_lite_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QQ_sdk_lite_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA85269E30F586A49F3FA84F9426674B /* QQ_sdk_lite-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QQ_sdk_lite-dummy.m"; sourceTree = "<group>"; };
+		D1C3F27164641ADB2C16FAE5A179CCE8 /* Pods-QQ_sdk_lite_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QQ_sdk_lite_Tests-Info.plist"; sourceTree = "<group>"; };
+		DF465C0F7ADB80E5DCAA1C9733341562 /* TencentOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TencentOAuth.h; sourceTree = "<group>"; };
+		E36A2A5849F2826FB09C4DB529EE5B4E /* QQApiInterfaceObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QQApiInterfaceObject.h; sourceTree = "<group>"; };
+		E45008ECE95F4D385C37DA90BF3ACB5A /* QQ_sdk_lite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QQ_sdk_lite.xcconfig; sourceTree = "<group>"; };
+		F4C49F9FA552CB2BE09E8365A7BBE96A /* Pods-QQ_sdk_lite_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QQ_sdk_lite_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBFE1FB5740CAFB7B17DFDBA70CFBDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C22CDC241B55E1B9BE425B7D1EDE9C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51643B878926971FFF3577EBB727ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88188F768D5C19959653DD33F21CEDDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B7003ABA27FD26D691D8C2F8FF06A83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C468B4925FA9A0ABA9A17079FA51266 /* Pods-QQ_sdk_lite_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A3834C64651CAB99D4F2EB235BF8DE1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				714813031B39367A28B9DE921698C42B /* QQApiInterface.h */,
+				E36A2A5849F2826FB09C4DB529EE5B4E /* QQApiInterfaceObject.h */,
+				AEF37967971B688F9A22AB0259E3D5F7 /* sdkdef.h */,
+				DF465C0F7ADB80E5DCAA1C9733341562 /* TencentOAuth.h */,
+			);
+			name = Headers;
+			path = QQ_sdk_lite/Classes/TencentOpenAPI.framework/Headers;
+			sourceTree = "<group>";
+		};
+		3166CAE9E40B3049CEC9E490A89BF421 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77B3787EBBA39213B17E7DE6D423FAA1 /* QQ_sdk_lite.modulemap */,
+				E45008ECE95F4D385C37DA90BF3ACB5A /* QQ_sdk_lite.xcconfig */,
+				BA85269E30F586A49F3FA84F9426674B /* QQ_sdk_lite-dummy.m */,
+				71511AF017116DABEEAEC099BD676CAE /* QQ_sdk_lite-Info.plist */,
+				9CDD57897E3D8A5A169303DE840CD237 /* QQ_sdk_lite-prefix.pch */,
+				9B4B7DF7E95C9192AF0D851C26C391F1 /* QQ_sdk_lite-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QQ_sdk_lite";
+			sourceTree = "<group>";
+		};
+		81963AC4F8A67B74FB34E90A29255174 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B79FC031ACC9EF7CF920180EB78D37F7 /* Pods_QQ_sdk_lite_Tests.framework */,
+				2321A54877EAA983CB20B8DA96F8CC23 /* QQ_sdk_lite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8256801383938CDAF8CFA428E36D2CC9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A36BB47B19CE48717D5308128C68B342 /* QQ_sdk_lite */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8C468B4925FA9A0ABA9A17079FA51266 /* Pods-QQ_sdk_lite_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9C42F3E6870E948984B06E5D67436D9D /* Pods-QQ_sdk_lite_Tests.modulemap */,
+				B96C343261648B3D19BD62515B983CA3 /* Pods-QQ_sdk_lite_Tests-acknowledgements.markdown */,
+				9681B6BA8240679276AFBBA05983F769 /* Pods-QQ_sdk_lite_Tests-acknowledgements.plist */,
+				901D4F86793D95D3D7608AE52686B224 /* Pods-QQ_sdk_lite_Tests-dummy.m */,
+				785DF732161EDD6DF49816D5BA1C04AD /* Pods-QQ_sdk_lite_Tests-frameworks.sh */,
+				D1C3F27164641ADB2C16FAE5A179CCE8 /* Pods-QQ_sdk_lite_Tests-Info.plist */,
+				9B5271A3B76D1D6886C32772097773C7 /* Pods-QQ_sdk_lite_Tests-umbrella.h */,
+				A3D87FFD6A20139D72492D8C6C7BF75B /* Pods-QQ_sdk_lite_Tests.debug.xcconfig */,
+				F4C49F9FA552CB2BE09E8365A7BBE96A /* Pods-QQ_sdk_lite_Tests.release.xcconfig */,
+			);
+			name = "Pods-QQ_sdk_lite_Tests";
+			path = "Target Support Files/Pods-QQ_sdk_lite_Tests";
+			sourceTree = "<group>";
+		};
+		A36BB47B19CE48717D5308128C68B342 /* QQ_sdk_lite */ = {
+			isa = PBXGroup;
+			children = (
+				325B0F3A7F9C9B7828C64429E717CC0A /* TencentOpenAPI */,
+				2A3834C64651CAB99D4F2EB235BF8DE1 /* Headers */,
+				D0EA25896671764272EDDB1F47AEC8C6 /* Pod */,
+				3166CAE9E40B3049CEC9E490A89BF421 /* Support Files */,
+			);
+			name = QQ_sdk_lite;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8256801383938CDAF8CFA428E36D2CC9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				81963AC4F8A67B74FB34E90A29255174 /* Products */,
+				1B7003ABA27FD26D691D8C2F8FF06A83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EA25896671764272EDDB1F47AEC8C6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				43B9E6A18A375001FE6C8F0C9849AE85 /* LICENSE */,
+				52109695BC61F3604F2048321F1BBE61 /* QQ_sdk_lite.podspec */,
+				1E99D8036101B099317AAFC4014B4678 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		435AED259A62826239B922DEF3DB339A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603AB494CBD489A60B7D7E5C4A4A4A56 /* Pods-QQ_sdk_lite_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755D8C158C1094CE6C5378807564F2C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8979A5B21E69AC4BA6E5F903B2424EA9 /* QQ_sdk_lite-umbrella.h in Headers */,
+				D380F9168D33FA2D1226DD9329CBC76F /* QQApiInterface.h in Headers */,
+				B9DE96DB1F16E8AC042523CC0755AD1C /* QQApiInterfaceObject.h in Headers */,
+				E13E420321D5AC2490DE8CFA9DBCC644 /* sdkdef.h in Headers */,
+				CF2A3DC2C41F34223B8515B8D2657A2D /* TencentOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BDFE98951690A106F8E80687FC09292B /* Pods-QQ_sdk_lite_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B56C5C554244EE5F38A25B2381378A4 /* Build configuration list for PBXNativeTarget "Pods-QQ_sdk_lite_Tests" */;
+			buildPhases = (
+				435AED259A62826239B922DEF3DB339A /* Headers */,
+				58F81C2B4DCF2B281CE3B277DDD4CC82 /* Sources */,
+				DBFE1FB5740CAFB7B17DFDBA70CFBDE2 /* Frameworks */,
+				18CB059362DCCF5BF9285003700F457E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3634BDAD517425BB63459296E5716FD8 /* PBXTargetDependency */,
+			);
+			name = "Pods-QQ_sdk_lite_Tests";
+			productName = "Pods-QQ_sdk_lite_Tests";
+			productReference = B79FC031ACC9EF7CF920180EB78D37F7 /* Pods_QQ_sdk_lite_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C93E34838A832DACE23D5E127A223519 /* QQ_sdk_lite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D443383FFEA6E4E798BB90C8459C24 /* Build configuration list for PBXNativeTarget "QQ_sdk_lite" */;
+			buildPhases = (
+				755D8C158C1094CE6C5378807564F2C3 /* Headers */,
+				D441D0B9A80305AA988E3EB04601A99A /* Sources */,
+				F51643B878926971FFF3577EBB727ABA /* Frameworks */,
+				445A39682C0CB1C4D5DE460A6E5A02B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQ_sdk_lite;
+			productName = QQ_sdk_lite;
+			productReference = 2321A54877EAA983CB20B8DA96F8CC23 /* QQ_sdk_lite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 81963AC4F8A67B74FB34E90A29255174 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDFE98951690A106F8E80687FC09292B /* Pods-QQ_sdk_lite_Tests */,
+				C93E34838A832DACE23D5E127A223519 /* QQ_sdk_lite */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CB059362DCCF5BF9285003700F457E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		445A39682C0CB1C4D5DE460A6E5A02B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58F81C2B4DCF2B281CE3B277DDD4CC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F812E7A97FBC1F2D5866654A310663E /* Pods-QQ_sdk_lite_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D441D0B9A80305AA988E3EB04601A99A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B0AD8D5F6C118406F7E5EA6C1AA58B /* QQ_sdk_lite-dummy.m in Sources */,
+				E73A0FEEF671A07B31B09CA1D092BFB5 /* TencentOpenAPI in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3634BDAD517425BB63459296E5716FD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QQ_sdk_lite;
+			target = C93E34838A832DACE23D5E127A223519 /* QQ_sdk_lite */;
+			targetProxy = F4093DF2446F986C039E612BBB40C546 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		021759A52B600260582DE00DD352B3B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C49F9FA552CB2BE09E8365A7BBE96A /* Pods-QQ_sdk_lite_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QQ_sdk_lite_Tests/Pods-QQ_sdk_lite_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QQ_sdk_lite_Tests/Pods-QQ_sdk_lite_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29741AAC1B7201280AC7BFF7BACF9461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45008ECE95F4D385C37DA90BF3ACB5A /* QQ_sdk_lite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QQ_sdk_lite/QQ_sdk_lite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QQ_sdk_lite/QQ_sdk_lite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QQ_sdk_lite/QQ_sdk_lite.modulemap";
+				PRODUCT_MODULE_NAME = QQ_sdk_lite;
+				PRODUCT_NAME = QQ_sdk_lite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53C6AB867F5F8EFC7FB7C7A3407DC367 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3D87FFD6A20139D72492D8C6C7BF75B /* Pods-QQ_sdk_lite_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QQ_sdk_lite_Tests/Pods-QQ_sdk_lite_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QQ_sdk_lite_Tests/Pods-QQ_sdk_lite_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C04D27ED47177C626CF7465D68E3F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45008ECE95F4D385C37DA90BF3ACB5A /* QQ_sdk_lite.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QQ_sdk_lite/QQ_sdk_lite-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QQ_sdk_lite/QQ_sdk_lite-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QQ_sdk_lite/QQ_sdk_lite.modulemap";
+				PRODUCT_MODULE_NAME = QQ_sdk_lite;
+				PRODUCT_NAME = QQ_sdk_lite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D443383FFEA6E4E798BB90C8459C24 /* Build configuration list for PBXNativeTarget "QQ_sdk_lite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29741AAC1B7201280AC7BFF7BACF9461 /* Debug */,
+				5C04D27ED47177C626CF7465D68E3F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B56C5C554244EE5F38A25B2381378A4 /* Build configuration list for PBXNativeTarget "Pods-QQ_sdk_lite_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C6AB867F5F8EFC7FB7C7A3407DC367 /* Debug */,
+				021759A52B600260582DE00DD352B3B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
