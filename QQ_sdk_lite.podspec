@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QQ_sdk_lite'
-  s.version          = '3.3.9'
+  s.version          = '3.4.0'
   s.summary          = 'QQ sdk lite v3.3.9.'
   
   # This description is used to generate tags and improve search results.
@@ -31,11 +31,12 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '8.0'
   
-  s.vendored_frameworks = 'TencentOpenAPI.framework'
-  s.source_files        = 'QQ_sdk_lite/Classes/TencentOpenAPI.framework/Headers/*.h'
-  s.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
-  s.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
-  
+#  s.vendored_frameworks = 'TencentOpenAPI.framework'
+#  s.source_files        = 'QQ_sdk_lite/Classes/TencentOpenAPI.framework/Headers/*.h'
+#  s.libraries      = 'iconv', 'z', 'c++', 'sqlite3'
+#  s.frameworks     = 'Security', 'SystemConfiguration', 'CoreGraphics', 'CoreTelephony'
+  s.source_files        = 'QQ_sdk_lite/Classes/**/*'
+
   # s.resource_bundles = {
   #   'QQ_sdk_lite' => ['QQ_sdk_lite/Assets/*.png']
   # }
