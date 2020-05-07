@@ -1,0 +1,6 @@
+use_frameworks!
+target 'QQ_sdk_lite_Tests' do
+  pod 'QQ_sdk_lite', :path => '../'
+  
+  
+end
