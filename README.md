@@ -27,3 +27,4 @@ FyhSky, fengyinghaotjut@126.com
 ## License
 
 QQ_sdk_lite is available under the MIT license. See the LICENSE file for more info.
+# QQ_sdk_lite
